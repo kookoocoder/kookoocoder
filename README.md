@@ -1,130 +1,153 @@
-<!-- Profile source: tools/curated.js + tools/render.js. Generated graphics complement the written content below. -->
+# Preetam Gaikwad
 
-![Preetam Gaikwad — kookoocoder. Think. Create. Solve.](./assets/header.svg)
-
-# Preetam Gaikwad · `kookoocoder`
+### `kookoocoder` / Team Knull
 
 **Think. Create. Solve.**
 
-I build full-stack products, privacy-first tools, and machine-learning pipelines with Team Knull. From keeping sensitive prompts on-device to making long application forms resumable, I like software that solves a real problem—not just a demo that looks the part.
+```text
+preetam@team-knull:~$ whoami
+
+  Full-stack builder. Project manager. Team lead.
+  5x hackathon winner.
+  Privacy-first tools, applied ML, and products that solve real problems.
+
+preetam@team-knull:~$ status
+
+  Building. Learning. Iterating.
+```
 
 [LinkedIn](https://www.linkedin.com/in/preetam-gaikwad-64a1b135b/) · [Instagram](https://www.instagram.com/build.preetam/) · [Explore my repositories](https://github.com/kookoocoder?tab=repositories)
 
-## `~/about`
+---
 
-- **5× hackathon winner** · Project Manager & Team Lead · Team Knull.
-- Pursuing **BTech CSE at MIT**, alongside studies at **IIT Madras**.
-- **CSI Executive Member** · Chhatrapati Sambhajinagar, Maharashtra, India.
+## `01 / about`
 
-I work across product and implementation: understanding the problem, coordinating the build, and connecting the interface to the data and logic behind it. My projects explore privacy, industrial safety, civic-tech, and market research.
+I'm **Preetam Gaikwad**, a developer and builder at **Team Knull**. I work across interfaces, APIs, data pipelines, and AI integrations—connecting the pieces that turn an idea into something usable.
 
-## `~/activity`
+My projects explore questions like: Can sensitive information stay on-device? Can a long application survive a closed browser? Can an expensive model-training run resume instead of starting over?
 
-![GitHub telemetry: contributions, public repositories, streaks, hackathon wins, and language mix.](./assets/stats.svg)
+- **5× hackathon winner**, with experience as a **project manager and team lead**.
+- Pursuing **BTech in Computer Science at MIT**, alongside studies at **IIT Madras**.
+- **CSI Executive Member**, bringing technical work and community involvement together.
+- Based in **Chhatrapati Sambhajinagar, Maharashtra, India**.
 
-![A blue isometric contribution city generated from my latest 365 days of GitHub activity.](./assets/contribution-city.svg)
+## `02 / technical toolkit`
 
-The skyline is built from my real contribution calendar. **One address per day; taller buildings mean more contributions.** The dashboard refreshes daily through GitHub Actions—no external stats-card service.
+Technologies represented in my projects, grouped by what I use them to build.
 
-## `~/selected-builds`
-
-### [Prompt Filter ↗](https://github.com/kookoocoder/prompt_filter)
-
-`LOCAL-FIRST PRIVACY`
-
-Clean sensitive information from a prompt before it leaves your machine. A local-first sanitizer built around privacy at the point of input.
-
-**Built with:** Python · FastAPI · TypeScript.
-
-### [Visual Guard ↗](https://github.com/kookoocoder/visual-guard)
-
-`ON-DEVICE REDACTION`
-
-A browser-extension privacy layer for on-device text and image redaction. Brings document and vision tooling closer to the user, rather than sending everything away.
-
-**Built with:** JavaScript · Transformers.js · Tesseract.js.
-
-### [Paisa AI Model ↗](https://github.com/kookoocoder/paisa_ai_model)
-
-`APPLIED MACHINE LEARNING`
-
-A checkpointed training pipeline: OHLCV data → feature engineering → Optuna search → XGBoost / LightGBM → ARIMA → evaluation → packaged artifacts. Runs on Modal; training-only, not an inference API.
-
-**Built with:** Python · Modal · Optuna · XGBoost · LightGBM.
-
-### [SafetyIQ ↗](https://github.com/kookoocoder/safetyiq)
-
-`INDUSTRIAL SAFETY`
-
-Compound risk detection for industrial environments. Connects a TypeScript application with local AI and inference tooling to explore combined risks, not just isolated signals.
-
-**Built with:** Next.js · TypeScript · ONNX Runtime · LM Studio.
-
-### [Sahaj Visa ↗](https://github.com/kookoocoder/sahaj-visa)
-
-`CIVIC-TECH PROTOTYPE`
-
-An independent e-Tourist Visa prototype with autosave, resumable forms, deterministic checks, an audit log, and a status timeline. Payments and government integrations are mocked; no real visa is issued.
-
-**Built with:** TypeScript · Next.js.
-
-### [Paisa ↗](https://github.com/kookoocoder/paisa)
-
-`PAPER-TRADING RESEARCH`
-
-An India-focused intraday paper-trading research harness with an autonomous replay dashboard. Research and simulation—not a claim of profitable live trading.
-
-**Built with:** Python · pandas · scikit-learn.
-
-## `~/toolkit`
-
-Tools represented in my public projects—not a claim of equal expertise in every dependency.
-
-| Area | Technologies |
+| Domain | Toolkit |
 | :--- | :--- |
 | **Languages** | TypeScript, JavaScript, Python, SQL, Clarity |
-| **Web & interfaces** | React, Next.js, Tailwind CSS, Vite, shadcn/ui, Framer Motion |
-| **APIs & data** | FastAPI, Pydantic, PostgreSQL, Prisma, Supabase, Convex, Redis |
-| **ML & research** | pandas, NumPy, scikit-learn, XGBoost, LightGBM, ARIMA, Optuna, Modal |
-| **AI & privacy** | MCP, Vercel AI SDK, ONNX Runtime, Transformers.js, Tesseract.js |
+| **Web applications** | React, Next.js, Tailwind CSS, Vite, shadcn/ui, Framer Motion |
+| **APIs and validation** | FastAPI, Pydantic, Next.js API routes |
+| **Data and persistence** | PostgreSQL, Prisma, Supabase, Convex, Redis |
+| **Data science** | pandas, NumPy, scikit-learn, Jupyter notebooks |
+| **Machine learning** | XGBoost, LightGBM, ARIMA, Optuna, Modal |
+| **AI integrations** | MCP, Vercel AI SDK, ONNX Runtime, LM Studio |
+| **On-device processing** | Transformers.js, Tesseract.js, browser extensions |
 | **Blockchain** | Clarity / Stacks, Clarinet SDK |
-| **Testing & delivery** | pytest, Vitest, Node.js test runner, Git, GitHub Actions |
+| **Testing and delivery** | pytest, Vitest, Node.js test runner, Git, GitHub Actions |
 
-**Stack evidence:** [web](https://github.com/kookoocoder/WebSynx/blob/main/package.json) · [APIs](https://github.com/kookoocoder/prompt_filter/blob/main/pyproject.toml) · [ML training](https://github.com/kookoocoder/paisa_ai_model/blob/main/pyproject.toml) · [vision](https://github.com/kookoocoder/visual-guard/blob/main/package.json) · [Stacks](https://github.com/kookoocoder/stack-web3/blob/main/package.json).
+## `03 / selected builds`
 
-## `~/engineering-notes`
+### [Prompt Filter](https://github.com/kookoocoder/prompt_filter)
 
-- **Privacy before transmission.** Clean sensitive inputs and process locally when the problem allows it.
-- **Recovery is a feature.** Resumable forms and checkpointed training runs solve different versions of the same problem: lost progress.
-- **Keep the claims honest.** Paper trading is research. A prototype is a prototype. The useful part should speak for itself.
-- **Build beyond the happy path.** State transitions, validation, and failure handling belong to the product, not the backlog.
+**Privacy before the request.**
 
-## `~/more-experiments`
+A local-first prompt sanitizer that cleans sensitive information from what you type **before it leaves your machine**. An exploration of making privacy part of the input workflow rather than an afterthought.
 
-- [**A.R.T.I.S**](https://github.com/kookoocoder/A.R.T.I.S) — Automated Response Technology for Information and Solutions.
-- [**Auto Review Bot**](https://github.com/kookoocoder/auto-review-bot) — static QR codes with rotating review-text pools.
-- [**Data Cleaning Demo**](https://github.com/kookoocoder/dwv-data-cleaning-demo) — cleaning messy CSV data in Python or Google Colab.
-- [**Stack Web3**](https://github.com/kookoocoder/stack-web3) — smart-contract development with Clarity on Stacks.
+`Python` · `FastAPI` · `TypeScript`
 
-## `~/connect`
+### [Visual Guard](https://github.com/kookoocoder/visual-guard)
 
-Building something in **privacy, applied AI, full-stack development, or blockchain**? Let's talk on [LinkedIn](https://www.linkedin.com/in/preetam-gaikwad-64a1b135b/). Follow the work on [Instagram](https://www.instagram.com/build.preetam/).
+**Redact on-device.**
 
-<details>
-<summary>How this profile is coded</summary>
+A browser-extension privacy layer for **text and image redaction**. Uses client-side processing and vision tooling to bring sensitive-data handling closer to the user.
 
-The README contains real, selectable text. The terminal header, telemetry, and city are custom SVGs generated with dependency-free Node.js—not screenshots or third-party badge widgets. GitHub READMEs don't run custom CSS or JavaScript, so SVG handles the visual effects while Markdown handles the content and links.
+`JavaScript` · `Transformers.js` · `Tesseract.js`
 
-- `tools/curated.js` — personal copy, projects, and verified toolkit.
-- `tools/fetch-data.js` — paginated public repository data and the contribution calendar.
-- `tools/render.js` + `tools/style.js` — README and terminal artwork.
-- `tools/city.js` — deterministic isometric geometry, windows, and lighting.
-- `node --test tools/*.test.js` — generator regression tests.
+### [Paisa AI Model](https://github.com/kookoocoder/paisa_ai_model)
 
-Language mix excludes `paisa` (bundled StockSharp sources), `chess-game-` (upstream Session Android code), and this profile's generated graphics. Repository presence or byte count alone doesn't establish authorship or proficiency.
+**From market data to reproducible model artifacts.**
 
-Visual direction inspired by [Giorgi Kobaidze's terminal profile](https://github.com/georgekobaidze). This implementation and all profile copy are personalized for kookoocoder.
+A cloud training pipeline for Indian equity intraday direction models. It engineers features, searches hyperparameters, trains models, evaluates ensembles, and packages artifacts. Checkpoints let interrupted work resume instead of repeating expensive stages.
 
-</details>
+```text
+OHLCV data
+    |
+    v
+Feature engineering -> Optuna search
+    |
+    v
+XGBoost + LightGBM -> ARIMA tiebreakers
+    |
+    v
+Evaluation -> Packaged model artifacts
+```
 
-![Connection to kookoocoder closed. Keep building.](./assets/footer.svg)
+Training runs on **Modal**. This is a training pipeline—not an inference API or a claim of profitable trading.
+
+`Python` · `Modal` · `Optuna` · `XGBoost` · `LightGBM` · `ARIMA`
+
+### [SafetyIQ](https://github.com/kookoocoder/safetyiq)
+
+**Look at the combined risk.**
+
+Compound risk detection for industrial environments. Combines a TypeScript application with local AI and inference tooling to explore how multiple signals can contribute to a safety risk.
+
+`Next.js` · `TypeScript` · `ONNX Runtime` · `LM Studio`
+
+### [Sahaj Visa](https://github.com/kookoocoder/sahaj-visa)
+
+**Don't make people start over.**
+
+An independent prototype rethinking the Indian e-Tourist Visa journey:
+
+- Form autosave and resumable progress.
+- Deterministic pre-submission checks with field-level guidance.
+- A status timeline and timestamped audit log.
+- Queue-based ETA messaging.
+
+**Not a government website.** Payments and government integrations are mocked; no real visa is issued.
+
+`TypeScript` · `Next.js` · [Explore the demo](https://sahaj-visa.vercel.app/)
+
+### [Paisa](https://github.com/kookoocoder/paisa)
+
+**Research without real-money execution.**
+
+An India-focused intraday **paper-trading research harness** with an autonomous replay dashboard. A place to explore strategies and inspect simulated behavior without presenting research as a trading guarantee.
+
+`Python` · `pandas` · `scikit-learn`
+
+## `04 / more from the workbench`
+
+| Project | Focus |
+| :--- | :--- |
+| [**A.R.T.I.S**](https://github.com/kookoocoder/A.R.T.I.S) | Automated Response Technology for Information and Solutions |
+| [**Auto Review Bot**](https://github.com/kookoocoder/auto-review-bot) | Static QR codes with rotating review-text pools |
+| [**Data Cleaning Demo**](https://github.com/kookoocoder/dwv-data-cleaning-demo) | Cleaning messy CSV data with Python or Google Colab |
+| [**Stack Web3**](https://github.com/kookoocoder/stack-web3) | Smart-contract development with Clarity on Stacks |
+
+## `05 / how I build`
+
+**Keep private data close.** Process locally when the problem allows it. Protecting information should happen before transmission.
+
+**Make recovery part of the design.** Autosaved forms and checkpointed training pipelines solve different versions of the same problem: lost progress.
+
+**Go beyond the happy path.** Validation, state transitions, and failure handling are part of the product—not optional polish.
+
+**Keep experiments honest.** Research is research. A prototype is a prototype. Useful software shouldn't need inflated claims.
+
+## `06 / connect`
+
+Interested in collaborating on **privacy-first tools, applied AI, full-stack products, blockchain, or hackathon builds**?
+
+Reach me on [LinkedIn](https://www.linkedin.com/in/preetam-gaikwad-64a1b135b/) or follow my builds on [Instagram](https://www.instagram.com/build.preetam/).
+
+---
+
+```text
+preetam@team-knull:~$ exit
+Less noise. More working software.
+```
