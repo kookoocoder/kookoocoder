@@ -1,127 +1,66 @@
-// Hand-curated profile content that isn't derivable from the GitHub API.
+"use strict";
 
+// Personal details come from the supplied LinkedIn profile; stack entries were
+// checked against public repository manifests, not GitHub language-byte totals.
 module.exports = {
   displayName: "PREETAM GAIKWAD",
   handle: "kookoocoder",
-  pathLabel: "~/TEAMKNULL // KOOKOOCODER",
-  whoamiLines: [
-    "software engineer · builder · 5x hackathon winner",
-    "BTech CSE @ MIT · also studying at IIT Madras",
-    "building AI agents, automation & trading infra under TEAM KNULL",
-  ],
   hackathonWins: 5,
-  education: "MIT (BTech CSE) + IIT Madras",
-
-  links: [
-    {
-      id: "github",
-      label: "GitHub",
-      sub: "@kookoocoder",
-      url: "https://github.com/kookoocoder",
-      color: "#45f3ff",
-    },
-    {
-      id: "linkedin",
-      label: "LinkedIn",
-      sub: "preetam-gaikwad",
-      url: "https://www.linkedin.com/in/preetam-gaikwad-64a1b135b/",
-      color: "#45f3ff",
-    },
-    {
-      id: "instagram",
-      label: "Instagram",
-      sub: "@build.preetam",
-      url: "https://www.instagram.com/build.preetam/",
-      color: "#ff5ec8",
-    },
-    {
-      id: "website",
-      label: "Website",
-      sub: "preetamgloabal.com",
-      url: "https://www.preetamgloabal.com",
-      color: "#3dffa0",
-    },
+  introduction: "I build full-stack products, privacy-first tools, and machine-learning pipelines with Team Knull. From keeping sensitive prompts on-device to making long application forms resumable, I like software that solves a real problem—not just a demo that looks the part.",
+  background: [
+    "**5× hackathon winner** · Project Manager & Team Lead · Team Knull.",
+    "Pursuing **BTech CSE at MIT**, alongside studies at **IIT Madras**.",
+    "**CSI Executive Member** · Chhatrapati Sambhajinagar, Maharashtra, India.",
   ],
-
-  // repo name -> curated project-card metadata
+  links: [
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/preetam-gaikwad-64a1b135b/" },
+    { label: "Instagram", url: "https://www.instagram.com/build.preetam/" },
+    { label: "Explore my repositories", url: "https://github.com/kookoocoder?tab=repositories" },
+  ],
   projects: [
     {
-      repo: "paisa",
-      tag: "ACTIVE",
-      title: "Paisa",
-      description: "No-demat India intraday paper-trading research harness with an autonomous replay dashboard.",
-      langs: ["C#", "Python"],
+      repo: "prompt_filter", title: "Prompt Filter", tag: "LOCAL-FIRST PRIVACY",
+      description: "Clean sensitive information from a prompt before it leaves your machine. A local-first sanitizer built around privacy at the point of input.",
+      stack: "Python · FastAPI · TypeScript",
     },
     {
-      repo: "paisa_ai_model",
-      tag: "ML PIPELINE",
-      title: "Paisa AI Model",
-      description: "Modal training pipeline for Paisa Trader v2 ML models — XGBoost, LightGBM, ARIMA.",
-      langs: ["Python"],
+      repo: "visual-guard", title: "Visual Guard", tag: "ON-DEVICE REDACTION",
+      description: "A browser-extension privacy layer for on-device text and image redaction. Brings document and vision tooling closer to the user, rather than sending everything away.",
+      stack: "JavaScript · Transformers.js · Tesseract.js",
     },
     {
-      repo: "safetyiq",
-      tag: "ACTIVE",
-      title: "SafetyIQ",
-      description: "Compound risk detection for industrial environments, surfaced in real time.",
-      langs: ["TypeScript"],
+      repo: "paisa_ai_model", title: "Paisa AI Model", tag: "APPLIED MACHINE LEARNING",
+      description: "A checkpointed training pipeline: OHLCV data → feature engineering → Optuna search → XGBoost / LightGBM → ARIMA → evaluation → packaged artifacts. Runs on Modal; training-only, not an inference API.",
+      stack: "Python · Modal · Optuna · XGBoost · LightGBM",
     },
     {
-      repo: "visual-guard",
-      tag: "PRIVACY",
-      title: "Visual Guard",
-      description: "Client-side privacy layer browser extension with on-device text & image redaction.",
-      langs: ["JavaScript"],
+      repo: "safetyiq", title: "SafetyIQ", tag: "INDUSTRIAL SAFETY",
+      description: "Compound risk detection for industrial environments. Connects a TypeScript application with local AI and inference tooling to explore combined risks, not just isolated signals.",
+      stack: "Next.js · TypeScript · ONNX Runtime · LM Studio",
     },
     {
-      repo: "prompt_filter",
-      tag: "SECURITY",
-      title: "Prompt Filter",
-      description: "Local-first prompt sanitizer — cleans what you typed before it ever leaves the machine.",
-      langs: ["Python"],
+      repo: "sahaj-visa", title: "Sahaj Visa", tag: "CIVIC-TECH PROTOTYPE",
+      description: "An independent e-Tourist Visa prototype with autosave, resumable forms, deterministic checks, an audit log, and a status timeline. Payments and government integrations are mocked; no real visa is issued.",
+      stack: "TypeScript · Next.js",
     },
     {
-      repo: "sahaj-visa",
-      tag: "HACKATHON",
-      title: "Sahaj Visa",
-      description: "Independent prototype reimagining the Indian e-Tourist Visa journey end to end.",
-      langs: ["TypeScript"],
+      repo: "paisa", title: "Paisa", tag: "PAPER-TRADING RESEARCH",
+      description: "An India-focused intraday paper-trading research harness with an autonomous replay dashboard. Research and simulation—not a claim of profitable live trading.",
+      stack: "Python · pandas · scikit-learn",
     },
   ],
-
   stack: [
-    {
-      label: "LANGUAGES",
-      items: ["C#", "TypeScript", "JavaScript", "Python", "Kotlin", "Java", "Solidity"],
-    },
-    {
-      label: "FRAMEWORKS",
-      items: ["Next.js", "React", "Node.js", ".NET"],
-    },
-    {
-      label: "ML / DATA",
-      items: ["XGBoost", "LightGBM", "ARIMA", "Pandas"],
-    },
-    {
-      label: "PLATFORMS",
-      items: ["Git", "GitHub Actions", "Vercel", "Docker", "Figma"],
-    },
-    {
-      label: "BLOCKCHAIN",
-      items: ["Solidity", "Clarity / Stacks"],
-    },
+    ["Languages", "TypeScript, JavaScript, Python, SQL, Clarity"],
+    ["Web & interfaces", "React, Next.js, Tailwind CSS, Vite, shadcn/ui, Framer Motion"],
+    ["APIs & data", "FastAPI, Pydantic, PostgreSQL, Prisma, Supabase, Convex, Redis"],
+    ["ML & research", "pandas, NumPy, scikit-learn, XGBoost, LightGBM, ARIMA, Optuna, Modal"],
+    ["AI & privacy", "MCP, Vercel AI SDK, ONNX Runtime, Transformers.js, Tesseract.js"],
+    ["Blockchain", "Clarity / Stacks, Clarinet SDK"],
+    ["Testing & delivery", "pytest, Vitest, Node.js test runner, Git, GitHub Actions"],
   ],
-
   languageColors: {
-    "C#": "#45f3ff",
-    TypeScript: "#3dffa0",
-    Kotlin: "#ff5ec8",
-    Java: "#ffd166",
-    Python: "#8aa8ff",
-    JavaScript: "#ffe27a",
-    CSS: "#6fe3d6",
-    HTML: "#ff8a65",
-    "Jupyter Notebook": "#f2a65a",
-    "C++": "#9d7bff",
+    TypeScript: "#00d9ff", Python: "#ff2bd6", JavaScript: "#e7cf64",
+    CSS: "#9c85f6", HTML: "#ed946b", Clarity: "#65d995",
+    "Jupyter Notebook": "#6d92e8",
   },
 };
