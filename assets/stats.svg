@@ -1,0 +1,101 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1a22"/>
+      <stop offset="100%" stop-color="#070b11"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="0" y="0" width="900" height="320" rx="0" fill="transparent"/>
+  
+  
+  <rect x="1" y="1" width="898" height="318" rx="10"
+        fill="url(#panelGrad)" stroke="#1d4a4a" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="318" rx="10"
+        fill="none" stroke="#2ee6d6" stroke-width="0.6" opacity="0.55"/>
+  
+  <text x="28" y="34" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="18" font-weight="700" fill="#45f3ff" filter="url(#glow)">~/stats</text>
+  <text x="140.12" y="34" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="12" fill="#3b5856">[ 02 ]</text>
+  <text x="28" y="54" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="12.5" fill="#5f8482"><tspan fill="#3dffa0">$</tspan> gh stats --user kookoocoder --all-channels</text>
+  
+  <rect x="28" y="70" width="200.5" height="76" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="42" y="92" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">TOTAL STARS</text>
+  <text x="42" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#ffd166">3</text>
+  <text x="216.5" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856" text-anchor="end">across all repos</text>
+  
+
+  <rect x="242.5" y="70" width="200.5" height="76" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="256.5" y="92" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">CONTRIBUTIONS</text>
+  <text x="256.5" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#45f3ff">414</text>
+  <text x="431" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856" text-anchor="end">last 365 days</text>
+  
+
+  <rect x="457" y="70" width="200.5" height="76" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="471" y="92" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">COMMITS</text>
+  <text x="471" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#3dffa0">137</text>
+  <text x="645.5" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856" text-anchor="end">this year</text>
+  
+
+  <rect x="671.5" y="70" width="200.5" height="76" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="685.5" y="92" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">CURRENT STREAK</text>
+  <text x="685.5" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#ff5ec8">1d</text>
+  <text x="860" y="130" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856" text-anchor="end">longest: 8d</text>
+  
+  
+  <rect x="28" y="160" width="200.5" height="58" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="42" y="182" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">FOLLOWERS</text>
+  <text x="42" y="202" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#eafaf8">2</text>
+  
+  
+
+  <rect x="242.5" y="160" width="200.5" height="58" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="256.5" y="182" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">REPOSITORIES</text>
+  <text x="256.5" y="202" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#eafaf8">28</text>
+  
+  
+
+  <rect x="457" y="160" width="200.5" height="58" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="471" y="182" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">MEMBER SINCE</text>
+  <text x="471" y="202" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#eafaf8">Feb 2025</text>
+  
+  
+
+  <rect x="671.5" y="160" width="200.5" height="58" rx="8" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1"/>
+  <text x="685.5" y="182" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">HACKATHON WINS</text>
+  <text x="685.5" y="202" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="26" font-weight="700" fill="#eafaf8">5</text>
+  
+  
+  <text x="28" y="250" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" letter-spacing="1" fill="#5f8482">TOP LANGUAGES (BY BYTES)</text>
+  <rect x="28" y="260" width="844" height="10" rx="5" fill="#0e1a22"/>
+  <rect x="28" y="260" width="505.18877824956536" height="10" fill="#45f3ff"/>
+<rect x="533.1887782495653" y="260" width="135.93979411239692" height="10" fill="#3dffa0"/>
+<rect x="669.1285723619623" y="260" width="82.16469985818364" height="10" fill="#ff5ec8"/>
+<rect x="751.2932722201459" y="260" width="62.56444290660056" height="10" fill="#ffd166"/>
+<rect x="813.8577151267465" y="260" width="21.360928247047756" height="10" fill="#8aa8ff"/>
+  <rect x="835.2186433737943" y="260" width="36.78135662620571" height="10" fill="#3b5856"/>
+  <circle cx="28" cy="282" r="4" fill="#45f3ff"/>
+      <text x="38" y="286" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">C# 59.9%</text>
+<circle cx="188" cy="282" r="4" fill="#3dffa0"/>
+      <text x="198" y="286" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">TypeScript 16.1%</text>
+<circle cx="348" cy="282" r="4" fill="#ff5ec8"/>
+      <text x="358" y="286" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Kotlin 9.7%</text>
+<circle cx="508" cy="282" r="4" fill="#ffd166"/>
+      <text x="518" y="286" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Java 7.4%</text>
+<circle cx="668" cy="282" r="4" fill="#8aa8ff"/>
+      <text x="678" y="286" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Python 2.5%</text>
+  
+</svg>

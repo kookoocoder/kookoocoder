@@ -1,0 +1,101 @@
+<svg width="900" height="510" viewBox="0 0 900 510" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1a22"/>
+      <stop offset="100%" stop-color="#070b11"/>
+    </linearGradient>
+    
+  </defs>
+  <rect x="0" y="0" width="900" height="510" rx="0" fill="transparent"/>
+  
+  
+  <rect x="1" y="1" width="898" height="508" rx="10"
+        fill="url(#panelGrad)" stroke="#1d4a4a" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="508" rx="10"
+        fill="none" stroke="#2ee6d6" stroke-width="0.6" opacity="0.55"/>
+  
+  <text x="28" y="34" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="18" font-weight="700" fill="#45f3ff" filter="url(#glow)">~/projects</text>
+  <text x="173.6" y="34" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="12" fill="#3b5856">[ 04 ]</text>
+  <text x="28" y="54" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="12.5" fill="#5f8482"><tspan fill="#3dffa0">$</tspan> ls -l ~/projects</text>
+  
+      <a href="https://github.com/kookoocoder/paisa" target="_blank">
+      <rect x="28" y="70" width="414" height="128" rx="9" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1.2"/>
+      <rect x="42" y="84" width="51.339999999999996" height="18" rx="9" fill="none" stroke="#3dffa0" stroke-width="1"/>
+      <text x="50" y="96.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="9.5" fill="#3dffa0">ACTIVE</text>
+      <text x="42" y="122" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="15" font-weight="700" fill="#eafaf8">Paisa</text>
+      <text x="42" y="140" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">No-demat India intraday paper-trading research</text>
+<text x="42" y="154" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">harness with an autonomous replay dashboard.</text>
+      <text x="42" y="184" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856">C# / Python</text>
+      
+      </a>
+
+      <a href="https://github.com/kookoocoder/paisa_ai_model" target="_blank">
+      <rect x="458" y="70" width="414" height="128" rx="9" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1.2"/>
+      <rect x="472" y="84" width="80.79" height="18" rx="9" fill="none" stroke="#45f3ff" stroke-width="1"/>
+      <text x="480" y="96.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="9.5" fill="#45f3ff">ML PIPELINE</text>
+      <text x="472" y="122" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="15" font-weight="700" fill="#eafaf8">Paisa AI Model</text>
+      <text x="472" y="140" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Modal training pipeline for Paisa Trader v2 ML</text>
+<text x="472" y="154" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">models — XGBoost, LightGBM, ARIMA.</text>
+      <text x="472" y="184" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856">Python</text>
+      
+      </a>
+
+      <a href="https://github.com/kookoocoder/safetyiq" target="_blank">
+      <rect x="28" y="214" width="414" height="128" rx="9" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1.2"/>
+      <rect x="42" y="228" width="51.339999999999996" height="18" rx="9" fill="none" stroke="#3dffa0" stroke-width="1"/>
+      <text x="50" y="240.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="9.5" fill="#3dffa0">ACTIVE</text>
+      <text x="42" y="266" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="15" font-weight="700" fill="#eafaf8">SafetyIQ</text>
+      <text x="42" y="284" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Compound risk detection for industrial</text>
+<text x="42" y="298" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">environments, surfaced in real time.</text>
+      <text x="42" y="328" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856">TypeScript</text>
+      
+      </a>
+
+      <a href="https://github.com/kookoocoder/visual-guard" target="_blank">
+      <rect x="458" y="214" width="414" height="128" rx="9" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1.2"/>
+      <rect x="472" y="228" width="57.23" height="18" rx="9" fill="none" stroke="#ff5ec8" stroke-width="1"/>
+      <text x="480" y="240.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="9.5" fill="#ff5ec8">PRIVACY</text>
+      <text x="472" y="266" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="15" font-weight="700" fill="#eafaf8">Visual Guard</text>
+      <text x="472" y="284" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Client-side privacy layer browser extension</text>
+<text x="472" y="298" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">with on-device text &amp; image redaction.</text>
+      <text x="472" y="328" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856">JavaScript</text>
+      
+      </a>
+
+      <a href="https://github.com/kookoocoder/prompt_filter" target="_blank">
+      <rect x="28" y="358" width="414" height="128" rx="9" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1.2"/>
+      <rect x="42" y="372" width="63.12" height="18" rx="9" fill="none" stroke="#ffd166" stroke-width="1"/>
+      <text x="50" y="384.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="9.5" fill="#ffd166">SECURITY</text>
+      <text x="42" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="15" font-weight="700" fill="#eafaf8">Prompt Filter</text>
+      <text x="42" y="428" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Local-first prompt sanitizer — cleans what you</text>
+<text x="42" y="442" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">typed before it ever leaves the machine.</text>
+      <text x="42" y="472" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856">Python</text>
+      
+      </a>
+
+      <a href="https://github.com/kookoocoder/sahaj-visa" target="_blank">
+      <rect x="458" y="358" width="414" height="128" rx="9" fill="#0e1a22" stroke="#1d4a4a" stroke-width="1.2"/>
+      <rect x="472" y="372" width="69.00999999999999" height="18" rx="9" fill="none" stroke="#ff5ec8" stroke-width="1"/>
+      <text x="480" y="384.5" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="9.5" fill="#ff5ec8">HACKATHON</text>
+      <text x="472" y="410" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="15" font-weight="700" fill="#eafaf8">Sahaj Visa</text>
+      <text x="472" y="428" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">Independent prototype reimagining the Indian</text>
+<text x="472" y="442" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10.5" fill="#5f8482">e-Tourist Visa journey end to end.</text>
+      <text x="472" y="472" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,Courier,monospace" font-size="10" fill="#3b5856">TypeScript</text>
+      
+      </a>
+  
+</svg>

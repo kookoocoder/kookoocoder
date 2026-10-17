@@ -1,0 +1,39 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # once a day
+  push:
+    branches: [main]
+    paths-ignore:
+      - "assets/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch live GitHub data
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+        run: node tools/fetch-data.js
+
+      - name: Render SVG assets
+        run: node tools/render.js
+
+      - name: Commit updated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --cached --quiet && echo "No changes" || git commit -m "chore: refresh profile stats [skip ci]"
+          git push
